@@ -1,0 +1,197 @@
+.add-review-container > h3 {
+  font-size: 1.5em;
+  margin: 8px 12px;
+}
+
+.input-detail {
+  margin: 18px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-detail > label {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+#input-reviewer-name {
+  font-size: 1.3em;
+  padding: 12px;
+  width: 100%;
+}
+
+#input-reviewer-text {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.3em;
+  height: 8em;
+}
+
+#review-submit {
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin: 4px 12px;
+  padding: 14px 32px;
+}
+
+.limit {
+  border: 1px solid rgb(221, 221, 221);
+}
+
+.detail-client {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 12px;
+}
+
+.hero-detail {
+  width: 100%;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-location {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+  padding: 6px;
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.identity,
+.add-review-container,
+.input,
+.menus-container {
+  margin: 12px;
+}
+
+.identity-category {
+  color: grey;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.identity-name {
+  background-color: black;
+  color: white;
+  padding: 2px 12px;
+  width: fit-content;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.identity-address {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.identity-description {
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.menus-container > h2 {
+  font-size: 1.5em;
+  margin-bottom: 12px;
+}
+
+.menus-type {
+  font-size: 1.5em;
+  margin-bottom: 4px;
+}
+
+.menus-item {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 12px;
+}
+
+.cus-reviews {
+  font-size: 1.5em;
+}
+
+.review-container {
+  margin: 12px;
+  padding: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.review-name {
+  font-size: 1.5em;
+  overflow: hidden;
+}
+
+.review {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+
+.review-date {
+  margin: 8px 0px;
+}
+
+.like {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  border: 0;
+
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+.content-heading {
+  margin-top: 12px;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.resto {
+  display: grid;
+  margin: 12px;
+  gap: 12px;
+  text-align: left;
+}
+
+#query {
+  width: 250px;
+  height: 44px;
+  margin: 12px 0px;
+  padding: 8px;
+}
+
+.content__heading {
+  font-size: 1.5em;
+  margin-bottom: 12px;
+}
+
+.restoran-item__not__found {
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: center;
+}

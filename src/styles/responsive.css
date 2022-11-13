@@ -1,0 +1,207 @@
+@media screen and (max-width: 499px) {
+  header {
+    background-color: white;
+  }
+
+  .webName h1 {
+    padding: 24px 0px;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .header-menu {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0;
+    padding: 12px;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .header-menu:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .navBar {
+    z-index: 10;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    transition: transform 0.3s ease;
+  }
+
+  .open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .nav-list {
+    flex-direction: column;
+    row-gap: 28px;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  .nav-list a:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 455px) {
+  .headline__content {
+    padding: 16px 16px;
+  }
+
+  .headline__description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .hero h2 {
+    font-size: 2.5em;
+  }
+  .header-menu {
+    display: none;
+  }
+
+  .client-description {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .webName h1 {
+    padding: 16px;
+  }
+
+  .hero h2 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .webName h1 {
+    font-size: 2em;
+    padding: 24px;
+  }
+
+  .nav-list {
+    font-size: 1.1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    text-align: right;
+  }
+
+  .hero h2 {
+    font-size: 3.5em;
+  }
+
+  .our-client {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+
+  .client-photo {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .our-client-label {
+    font-size: 2.5em;
+  }
+
+  .client-description {
+    font-size: 1.2em;
+  }
+
+  .quote q {
+    font-size: 2.5em;
+  }
+
+  .quote p {
+    font-size: 2.5em;
+  }
+  footer {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .webName h1 {
+    font-size: 2.5em;
+  }
+  .nav-list {
+    font-size: 1.5em;
+  }
+
+  .hero h2 {
+    font-size: 4em;
+  }
+
+  .our-client {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .our-client-label {
+    font-size: 3em;
+  }
+
+  .client-location {
+    font-size: 1.2em;
+  }
+
+  .client-rating {
+    font-size: 2em;
+  }
+
+  .client-name {
+    font-size: 2.2em;
+  }
+
+  .client-description {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+  }
+  .webName h1 {
+    font-size: 3em;
+  }
+
+  .hero h2 {
+    bottom: 45%;
+    left: 5%;
+    font-size: 7.5em;
+  }
+
+  .heroPhoto {
+    min-width: 1000px;
+  }
+
+  .quote q {
+    font-size: 3em;
+  }
+
+  .quote p {
+    font-size: 3em;
+  }
+
+  footer {
+    font-size: 1.5em;
+  }
+}

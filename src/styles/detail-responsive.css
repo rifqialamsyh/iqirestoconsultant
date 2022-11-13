@@ -1,0 +1,198 @@
+@media screen and (min-width: 550px) {
+  .resto {
+    grid-template-columns: 1fr 1fr;
+  }
+  #query {
+    width: 500px;
+    height: 50px;
+    margin: 24px 0px;
+    padding: 12px;
+  }
+  .content__heading {
+    font-size: 2em;
+  }
+  .restoran-item__not__found {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .hero-detail {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  #review-submit {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .identity-category {
+    font-size: 1.6em;
+  }
+  .hero-location {
+    font-size: 1.5em;
+  }
+  #query {
+    font-size: 1.3em;
+    width: 600px;
+    height: 60px;
+    margin: 38px 0px;
+    padding: 20px;
+  }
+  .content__heading {
+    font-size: 2.5em;
+  }
+  .restoran-item__not__found {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero-location,
+  .identity-address {
+    font-size: 1.8em;
+  }
+
+  #review-submit {
+    font-size: 1.5em;
+  }
+
+  .identity-category {
+    font-size: 1.7em;
+  }
+
+  .identity-name,
+  .content__heading {
+    font-size: 3em;
+  }
+
+  .identity-description {
+    font-size: 1.5em;
+  }
+
+  .menus-container > h2,
+  .cus-reviews,
+  .review-name {
+    font-size: 2em;
+  }
+
+  .menus-type {
+    font-size: 1.7em;
+  }
+
+  .menus-item {
+    font-size: 1.5em;
+  }
+
+  .review {
+    font-size: 1.5em;
+  }
+
+  .review-date {
+    font-size: 1.2em;
+  }
+
+  .resto {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .add-review-container > h3,
+  .restoran-item__not__found {
+    font-size: 2em;
+  }
+
+  .input-detail > label {
+    font-size: 1.7em;
+  }
+
+  #input-reviewer-name {
+    font-size: 1.4em;
+  }
+
+  #input-reviewer-text {
+    font-size: 1.4em;
+  }
+  #query {
+    font-size: 1.5em;
+    width: 700px;
+    height: 70px;
+    margin: 38px 0px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-detail {
+    min-width: 1000px;
+    height: 400px;
+  }
+
+  .hero-location {
+    font-size: 2.5em;
+    bottom: 24px;
+    left: 24px;
+  }
+
+  .identity-category {
+    font-size: 2.1em;
+  }
+
+  .identity-name,
+  .content__heading {
+    font-size: 3.5em;
+  }
+
+  .identity-address,
+  .menus-container > h2,
+  .cus-reviews {
+    font-size: 2.5em;
+  }
+
+  .identity-description {
+    font-size: 2em;
+  }
+
+  .menus-type,
+  .review-name {
+    font-size: 2.3em;
+  }
+
+  .menus-item,
+  .review {
+    font-size: 2em;
+  }
+
+  .review-date {
+    font-size: 1.5em;
+  }
+
+  .add-review-container > h3,
+  .restoran-item__not__found {
+    font-size: 2.5em;
+  }
+
+  .input-detail > label {
+    font-size: 2.3em;
+  }
+
+  #input-reviewer-name {
+    font-size: 1.7em;
+  }
+
+  #input-reviewer-text {
+    font-size: 1.7em;
+  }
+
+  #review-submit {
+    font-size: 1.8em;
+  }
+  #query {
+    font-size: 2em;
+    width: 700px;
+    height: 70px;
+    margin: 38px 0px;
+    padding: 20px;
+  }
+}

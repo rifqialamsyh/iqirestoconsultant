@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.webName h1 {
+  font-size: 18px;
+  text-align: center;
+  padding: 12px;
+}
+
+.header-menu {
+  border: none;
+}
+
+.nav-list {
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-item a {
+  color: white;
+  padding: 14px;
+}
+
+body {
+  min-width: 250px;
+}
+
+body,
+html {
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero {
+  position: relative;
+  text-align: left;
+}
+
+.hero h2 {
+  width: 50%;
+  font-size: 1.6em;
+  color: white;
+  position: absolute;
+  bottom: 8%;
+  left: 8%;
+  text-transform: uppercase;
+}
+
+.heroPhoto {
+  width: 100%;
+  display: block;
+}
+
+.header-menu {
+  font-size: 32px;
+  margin: 10px auto;
+  display: block;
+  width: 30px;
+}

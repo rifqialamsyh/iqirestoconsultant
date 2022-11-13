@@ -1,0 +1,108 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.our-client-label {
+  margin: 12px 0px;
+  text-align: center;
+}
+
+.our-client {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  text-align: left;
+  margin: 12px 24px;
+}
+
+.client-item {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 100%;
+}
+
+.client-thumbnail {
+  position: relative;
+}
+
+.client-photo {
+  width: 100%;
+}
+
+.client-location {
+  position: absolute;
+  background-color: black;
+  font-weight: 600;
+  color: white;
+  padding: 6px 10px;
+  bottom: 14px;
+  right: 12px;
+}
+
+.client-content {
+  background-color: white;
+  padding: 12px 18px;
+}
+
+.client-rating {
+  font-size: 1.5em;
+}
+
+.client-rating span {
+  background-color: black;
+  color: white;
+  padding-left: 5px;
+}
+
+.client-name {
+  font-size: 2em;
+  margin-top: 12px;
+}
+
+.client-description {
+  margin-top: 12px;
+  line-height: 1.5em;
+  width: 100%;
+  max-height: 220px;
+  overflow: hidden;
+}
+
+.details-button {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 12px 0px;
+  padding: 12px 14px;
+  border: 1px solid black;
+}
+
+.details-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.quote {
+  text-align: center;
+  margin: 32px;
+}
+
+.quote q {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.quote p {
+  font-size: 2em;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  width: 100%;
+  padding: 24px;
+  color: white;
+  background-color: black;
+  font-weight: 100;
+}
